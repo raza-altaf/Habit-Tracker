@@ -1,0 +1,157 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Anchor Tag */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+/* Body Style */
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #171717;
+  color: white;
+}
+
+/* Root Div Style */
+#root {
+  width: 80%;
+  border-right: 1px solid #323232;
+  border-left: 1px solid #323232;
+}
+
+/* Navbar Component Styles */
+.navbar {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  padding: 0 20px;
+  justify-content: space-between;
+  border-bottom: 1px solid #323232;
+}
+
+.right-nav h5 {
+  color: #dddddd;
+  margin-right: 10px;
+}
+
+.addhabit-btn {
+  cursor: pointer;
+  color: white;
+  background-color: #3662cc;
+  padding: 8px 20px;
+  border-radius: 7px;
+}
+
+/* Modal Styles */
+.modal-content {
+  background-color: #333333;
+}
+
+.modal-header,
+.modal-footer {
+  border: none;
+}
+
+/* Habits Component Styles */
+.habits {
+  width: 100%;
+}
+
+/* Habit Styles */
+.habit {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid #323232;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.habit:hover {
+  background-color: #323232;
+}
+
+.habit-left i {
+  color: #2aa8d0;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #304950;
+  margin-right: 10px;
+}
+
+.day-complete {
+  color: #767475;
+  font-size: small;
+}
+
+.habit-right .log-btn {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #424242;
+  padding: 10px;
+  border-radius: 7px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+}
+
+.log-btn:hover {
+  color: white;
+}
+
+.log-btn i {
+  margin-right: 5px;
+}
+
+.fa-trash {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #424242;
+}
+
+/* Week View Styles */
+.days-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Day View Styles */
+.day-container {
+  height: 100px;
+  width: 150px;
+  background-color: #323232;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+/* Additional Styles */
+p {
+  margin: 0;
+}
+
+.circle-icon {
+  font-size: 24px;
+  margin: 5px 11px;
+  cursor: pointer;
+}
+
+.active {
+  color: #0b5ed7;
+}
